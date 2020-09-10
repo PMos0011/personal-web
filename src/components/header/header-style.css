@@ -1,0 +1,22 @@
+.switch-container {
+  display: flex;
+  margin-left: 20px;
+}
+
+.language-container {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.language-label {
+    margin-top: 3px;
+  margin-bottom:10px;
+}
+
+.language-label-active{
+    color:lightgray;
+}
+
+.language-label-inactive{
+    color: rgba(100,100,100,0.6);
+}
