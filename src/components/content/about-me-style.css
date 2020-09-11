@@ -1,6 +1,6 @@
 .about-me-content {
   margin: auto;
-  margin-top: 350px;
+  margin-top: 43vh;
   width: 70%;
 }
 
@@ -32,7 +32,41 @@ hr {
   border-color: #969696;
 }
 
-h1 {
+h1, h2 {
   font-family: "Oswald";
   color:lightgray
+}
+
+h2{
+  padding:10px;
+}
+
+.about-me-card{
+  margin-top: 10vh;
+  height: 30vh;
+  background-color: rgba(31,41,64,0.3);
+
+}
+
+.about-me{
+  margin: auto;
+  width: 60%;
+}
+
+
+.language-change-enter {
+  opacity: 0;
+}
+
+.language-change-enter.language-change-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.language-change-leave {
+  opacity: 1;
+}
+
+.language-change-leave.language-change-leave-active {
+  opacity: 0;
 }
