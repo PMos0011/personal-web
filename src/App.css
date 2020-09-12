@@ -1,7 +1,7 @@
 
 .App-container {
-  background-color: #1F2940;
-  background: linear-gradient(180deg, rgba(31,41,64,1) 0%, rgba(101,109,128,1) 70%, rgba(137,143,157,1) 100%);
+  background-color: #091826;
+  background: linear-gradient(180deg, rgba(9,24,38,1) 0%, rgba(34,49,63,1) 50%, rgba(82,99,116,1) 100%);
   min-height: 100vh;
 
   color: white;

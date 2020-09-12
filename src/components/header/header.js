@@ -39,13 +39,13 @@ const Header = (props) => {
                 </div>
                 <a href="https://www.linkedin.com/in/pawe%C5%82-moskwa-835bab186/"
                     target="_blank"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     title="LinkedIn">
                     <div className="icon-div" style={linkedIn} />
                 </a>
                 <a href="https://github.com/PMos0011"
-                    target="blank"
-                    rel="noopener"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     title="GitHub">
                     <div className="icon-div" style={github} />
                 </a>
