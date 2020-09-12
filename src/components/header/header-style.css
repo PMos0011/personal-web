@@ -1,3 +1,7 @@
+.app-bar-style{
+  background-color:black;
+}
+
 .switch-container {
   display: flex;
   margin-left: 20px;
@@ -26,6 +30,7 @@
   height: 60px;
   margin-right: 2vw;
   background-size: cover;
+  float: right;
 }
 
 a{

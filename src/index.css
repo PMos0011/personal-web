@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Work_Sans';
+  src: local('Work_Sans'), url(./fonts/Work_Sans/static/WorkSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald'), url(./fonts/Oswald/static/Oswald-Bold.ttf) format('truetype');
+}

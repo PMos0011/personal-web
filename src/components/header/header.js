@@ -1,6 +1,8 @@
 import React from 'react';
 import Switch from '@material-ui/core/Switch';
+import AppBar from '@material-ui/core/AppBar';
 import { connect } from "react-redux";
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
 import * as actions from '../../store/action';
 import './header-style.css';
@@ -22,9 +24,21 @@ const Header = (props) => {
         backgroundImage: `url(${githubIcon})`,
     }
 
+    const theme = createMuiTheme({
+        overrides: {
+            MuiAppBar: {
+                colorPrimary:
+                {
+                    backgroundColor: '#091826',
+                },
+            },
+        },
+    });
+
 
     return (
-        <>
+        <ThemeProvider theme={theme}>
+        <AppBar>
             <div className="switch-container">
                 <Switch
                     classes={
@@ -50,7 +64,8 @@ const Header = (props) => {
                     <div className="icon-div" style={github} />
                 </a>
             </div>
-        </>
+        </AppBar>
+        </ThemeProvider>
     )
 }
 

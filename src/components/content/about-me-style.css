@@ -33,24 +33,31 @@ hr {
 }
 
 h1, h2 {
-  font-family: "Oswald";
   color:lightgray
 }
 
+h1{
+  font-family: "Oswald";
+}
+
 h2{
-  padding:10px;
+  font-family: "Work_Sans";
+  padding-top:5vh;
+  font-weight: 300;
 }
 
 .about-me-card{
-  margin-top: 10vh;
-  height: 30vh;
-  background-color: rgba(9,24,38,0.3);
+  margin-top: 20vh;
+  background-color: rgba(9,24,38,0.8);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 
 }
 
 .about-me{
   margin: auto;
-  width: 60%;
+  width: 50%;
+  text-align: justify;
 }
 
 

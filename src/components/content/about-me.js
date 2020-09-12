@@ -25,7 +25,12 @@ const aboutMe = (props) => {
                 </div>
             </div>
             <div className="about-me-card">
-                <div className="about-me"><h2> </h2></div>
+                <Fade delay={500} spy={props.content.language}>
+                    <div className="about-me">
+                    <Fade appear={true} duration={2000}><h2>{cont._1Para}</h2></Fade>
+                    <Fade appear={true} duration={2000}><h2>{cont._2Para}</h2></Fade>
+                    </div>
+                </Fade>
             </div>
         </>
     )
