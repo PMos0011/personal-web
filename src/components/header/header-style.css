@@ -20,3 +20,14 @@
 .language-label-inactive{
     color: rgba(100,100,100,0.6);
 }
+
+.icon-div{
+  width: 60px;
+  height: 60px;
+  margin-right: 2vw;
+  background-size: cover;
+}
+
+a{
+  margin: auto;
+}
