@@ -9,7 +9,7 @@ const myImage = () => {
         <div className="my-image-container">
             <div className="backgroound-image-container" />
             <div className="my-image-margin">
-                <Fade bottom duration="1500">
+                <Fade bottom duration={1500}>
                     <div className="external-radius-div" />
                     <div className="internal-radius-div" />
                     <div className="my-image-div" />
