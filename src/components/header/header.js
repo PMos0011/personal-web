@@ -4,6 +4,7 @@ import AppBar from '@material-ui/core/AppBar';
 import { connect } from "react-redux";
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
+
 import * as actions from '../../store/action';
 import './header-style.css';
 import style from './switch-style';
@@ -29,7 +30,7 @@ const Header = (props) => {
             MuiAppBar: {
                 colorPrimary:
                 {
-                    backgroundColor: '#091826',
+                    backgroundColor: '#000000',
                 },
             },
         },

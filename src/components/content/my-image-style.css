@@ -3,7 +3,8 @@
   height: 50vh;
   display:grid;
   background-image: url("../../images/Sky_Tower.jpg");
-  opacity: 0.1;
+  filter: grayscale(100%);
+  opacity: 0.2;
   margin-top:10vh;
   position: absolute;
   background-repeat: no-repeat;
@@ -43,7 +44,7 @@
 .external-radius-div {
   width: 260px;
   height: 260px;
-  border: 8px solid rgba(0, 0, 0, 0.1);
+  border: 8px solid rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   position: absolute;
 }
@@ -52,7 +53,7 @@
   margin-top:8px;
   width: 230px;
   height: 230px;
-  border: 15px solid rgba(0, 0, 0, 0.2);
+  border: 15px solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   position: absolute;
 }

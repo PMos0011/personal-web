@@ -2,6 +2,7 @@
   margin: auto;
   margin-top: 43vh;
   width: 70%;
+  height: 18vh;
 }
 
 .hello-div {
@@ -16,12 +17,12 @@
   float: right;
 }
 .strip-left {
-background-color: rgba(150,150,150,0.1);
+background-color: rgba(200,200,200,0.1);
   height: 15px;
   width: 95%;
 }
 .strip-right {
-  background-color: rgba(150,150,150,0.2);;
+  background-color: rgba(200,200,200,0.2);;
     height: 15px;
     width: 95%;
     margin-left: 10px;
@@ -32,9 +33,6 @@ hr {
   border-color: #969696;
 }
 
-h1, h2 {
-  color:lightgray
-}
 
 h1{
   font-family: "Oswald";
@@ -48,9 +46,10 @@ h2{
 
 .about-me-card{
   margin-top: 20vh;
-  background-color: rgba(9,24,38,0.8);
+  background-color: rgb(240,240,240);
   padding-top: 5vh;
   padding-bottom: 5vh;
+  color:#000;
 
 }
 

@@ -7,10 +7,10 @@ import Content from './components/content/content';
 function App() {
   return (
     <div className="App">
-      <header className="App-container">
+      <div className="App-container">
         <Header/>
         <Content/>
-      </header>
+      </div>
     </div>
   );
 }

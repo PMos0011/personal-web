@@ -26,7 +26,7 @@ const style = makeStyles({
 
     },
     track: {
-        background: 'linear-gradient(to right, #898F9D, #898F9D)',
+        background: 'linear-gradient(to right, #C8C8C8, #C8C8C8)',
         opacity: '1 !important',
         borderRadius: 20,
 

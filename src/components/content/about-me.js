@@ -11,9 +11,9 @@ const aboutMe = (props) => {
     return (
         <>
             <div className="about-me-content">
-                <hr />
+               <Fade delay={1000}> <hr /> </Fade>
                 <div id="hello" className="hello-div">
-                    <Fade><>
+                    <Fade bottom big><>
                         <Fade spy={props.content.language}>
                             <h1>{cont.sayHello}<br />{cont.iAm}</h1>
                             <div className="strips-div">
@@ -25,10 +25,10 @@ const aboutMe = (props) => {
                 </div>
             </div>
             <div className="about-me-card">
-                <Fade delay={500} spy={props.content.language}>
+                <Fade spy={props.content.language}>
                     <div className="about-me">
-                    <Fade appear={true} duration={2000}><h2>{cont._1Para}</h2></Fade>
-                    <Fade appear={true} duration={2000}><h2>{cont._2Para}</h2></Fade>
+                    <Fade left big appear={true} duration={2000}><h2>{cont._1Para}</h2></Fade>
+                    <Fade right big appear={true} duration={2000}><h2>{cont._2Para}</h2></Fade>
                     </div>
                 </Fade>
             </div>
