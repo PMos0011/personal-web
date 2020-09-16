@@ -44,7 +44,7 @@ export default {
         },
         {
             date: "August 2019",
-            description: "<h3>Android application (Java + OpenGL ES)</h3>"
+            description: "<h3>Android application (Java, OpenGL ES)</h3>"
             +"<h3>Who wasn't curious about how GPU graphics rendering works?"
             +" I was, so I created a simple shooter in terms of checking the operation and possibilities of shaders.</h3>"
             +"<a href=https://github.com/PMos0011/TowerShooter target=_blank rel=noopener noreferrer>GitHub</a><br/>"

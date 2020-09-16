@@ -43,7 +43,7 @@ export default {
         },
         {
             date: "sierpień 2019",
-            description: "<h3>Aplikacja Android (Java + OpenGL ES)</h3>"
+            description: "<h3>Aplikacja Android (Java, OpenGL ES)</h3>"
             +"<h3>Kto nie był ciekawy jak działa renderowanie grafiki przez GPU?"
             +" Ja byłem więc stworzyłem prosty shooter pod kątem sprawdzenia działania i możliwości shaderów.</h3>"
             +"<a href=https://github.com/PMos0011/TowerShooter target=_blank rel=noopener noreferrer>GitHub</a><br/>"
