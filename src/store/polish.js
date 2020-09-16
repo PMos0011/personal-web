@@ -12,7 +12,7 @@ export default {
         {
             date: "obecnie",
             description: "<h3>System komunikacji biura rachunkowego z klientami (Java, Spring Boot, SQL, React)</h3>"
-            +"<h3>System importuje dane z bazy danych polularnej aplikacji do prowadzenia biura rachunkowego,"
+            +"<h3>System importuje dane z bazy danych popularnej aplikacji do prowadzenia biura rachunkowego,"
             +" a następnie udostępnia je klientom biura.</h3>"
             +"<h3>Repozytoria GitHub:</h3>"
             +"<a href=https://github.com/PMos0011/mbender.pl.administartionapp target=_blank rel=noopener noreferrer>Aplikacja servera</a><br/>"
@@ -23,14 +23,14 @@ export default {
             date: "luty 2020",
             description: "<h3>Aplikacja C# (WPF)</h3>"
             +"<h3>Apliakcja pomagająca w złożeniu wniosku o mieszkanie z zasobów TBS Wrocław. "
-            +"Bot z określonym interwałem czasowym \"sprawdza\" dostępne ogłoszenia i w przypadku spełnienia warunków określinych przez użytkownika "
+            +"Bot z określonym interwałem czasowym \"sprawdza\" dostępne ogłoszenia i w przypadku spełnienia warunków określonych przez użytkownika "
             +" przygotowuje i wysyła wniosek w jego imieniu.</h3>"
             +"<a href=https://github.com/PMos0011/TBS_bot target=_blank rel=noopener noreferrer>GitHub</a><br/>"
             
         },
         {
             date: "grudzień 2019",
-            description: "<h3>Aplikacja webowa stworzona dla zgorzeleckiej korpopracji taksówkarskiej z wykorzystaniem Vue.js i Vuitify.js</h3>"
+            description: "<h3>Aplikacja webowa stworzona dla zgorzeleckiej korporacji taksówkarskiej z wykorzystaniem Vue.js i Vuitify.js</h3>"
             +"<a href=https://github.com/PMos0011/vue-inter-taxi target=_blank rel=noopener noreferrer>GitHub</a><br/>"
             +"<a href=https://inter-taxi.com.pl/ target=_blank rel=noopener noreferrer>inter-taxi.com.pl</a>"
            
@@ -52,7 +52,7 @@ export default {
         {
             date: "marzec 2019",
             description: "<h3>System infromacyjny (Java,  SQL, HTML, Ajax)</h3>"
-            +"<h3>System oparty o dwuwarstwową architektórę typu klient-serwer"
+            +"<h3>System oparty o dwuwarstwową architekturę typu klient-serwer"
             +" pozwalający na sprawne oraz szybkie przekazywanie informacji."
             +" System obecnie jest używany w RCI Wrocław.</h3>"
         },

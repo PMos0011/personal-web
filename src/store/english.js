@@ -24,7 +24,7 @@ export default {
             date: "Ferbruary 2020",
             description: "<h3>C# Application (WPF)</h3>"
             +"<h3>An application that helps in submitting an application for an apartment from the resources of TBS Wrocław. "
-            +"The bot with a specified time interval \"checks\" the available ads and if the conditions specified by the user are met,"
+            +"The bot with a specified time interval \"checks\" the available announcements and if the conditions defined by the user are met,"
             +" it prepares and sends the application on his behalf.</h3>"
             +"<a href=https://github.com/PMos0011/TBS_bot target=_blank rel=noopener noreferrer>GitHub</a><br/>"
             
