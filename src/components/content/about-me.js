@@ -28,7 +28,7 @@ const aboutMe = (props) => {
             </div>
             <div className="white-background-black-text padding-bottom padding-top">
                 <Fade spy={props.content.language}>
-                    <div className="half-width-justify">
+                    <div className="half-width text-justyfy">
                     <Fade left big appear={true} duration={1500}><h3>{lang._1Para}</h3></Fade>
                     <Fade right big appear={true} duration={1500}><h3 className="padding-top">{lang._2Para}</h3></Fade>
                     </div>

@@ -15,9 +15,12 @@
   color: #000;
 }
 
-.half-width-justify {
+.half-width {
   margin: auto;
   width: 50%;
+}
+
+.text-justyfy{
   text-align: justify;
 }
 
