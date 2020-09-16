@@ -1,21 +1,21 @@
-.backgroound-image-container{
+.backgroound-image-container {
   width: 100%;
   height: 50vh;
-  display:grid;
+  display: grid;
   background-image: url("../../images/Sky_Tower.jpg");
   filter: grayscale(100%);
   opacity: 0.2;
-  margin-top:10vh;
+  margin-top: 10vh;
   position: absolute;
   background-repeat: no-repeat;
   background-size: 130%;
   background-position: center;
   animation-name: move;
   animation-duration: 25s;
-  animation-play-state: running; 
+  animation-play-state: running;
   animation-direction: alternate;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out; 
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes move {
@@ -29,8 +29,8 @@
   }
 }
 
-.my-image-margin{
-  margin-top:20vh;
+.my-image-margin {
+  margin-top: 20vh;
   display: flex;
   justify-content: center;
 }
@@ -50,7 +50,7 @@
 }
 
 .internal-radius-div {
-  margin-top:8px;
+  margin-top: 8px;
   width: 230px;
   height: 230px;
   border: 15px solid rgba(255, 255, 255, 0.2);
@@ -70,4 +70,22 @@
   background-size: 125%;
   background-position-x: -20px;
   background-position-y: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .backgroound-image-container {
+    background-size: 200%;
+    animation-name: move-mobile;
+  }
+}
+
+@keyframes move-mobile {
+  from {
+    background-position-x: center;
+    background-position-y: center;
+  }
+  to {
+    background-position-x: -20px;
+    background-position-y: -20px;
+  }
 }

@@ -12,8 +12,8 @@ const aboutMe = (props) => {
 
     return (
         <>
-            <div className="width-70-transparent" style={{marginTop:'43vh'}}>
-               <Zoom delay={1000}> <hr className="hr-70" /> </Zoom>
+            <div className="width-70-transparent" style={{ marginTop: '43vh' }}>
+                <Zoom delay={1000}> <hr className="hr-70" /> </Zoom>
                 <div id="hello" className="hello-div">
                     <Fade bottom big><>
                         <Fade spy={props.content.language}>
@@ -29,8 +29,8 @@ const aboutMe = (props) => {
             <div className="white-background-black-text padding-bottom padding-top">
                 <Fade spy={props.content.language}>
                     <div className="half-width text-justyfy">
-                    <Fade left big appear={true} duration={1500}><h3>{lang._1Para}</h3></Fade>
-                    <Fade right big appear={true} duration={1500}><h3 className="padding-top">{lang._2Para}</h3></Fade>
+                        <Fade left big appear={true} duration={1500}><h3>{lang._1Para}</h3></Fade>
+                        <Fade right big appear={true} duration={1500}><h3 className="padding-top">{lang._2Para}</h3></Fade>
                     </div>
                 </Fade>
             </div>

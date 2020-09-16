@@ -13,7 +13,7 @@ const projects = (props) => {
     const projectLeftImage = (source, project) => {
         return (
             <div className="grid-container" >
-                <img className="grid-div" src={source = source.imgSource} alt={source.id} />
+                <img className="grid-div hide-on-mobile" src={source = source.imgSource} alt={source.id} />
                 <Fade spy={props.content.language}><div className="grid-div text-justyfy" dangerouslySetInnerHTML={{
                     __html: project.description
                 }} /></Fade>
@@ -27,7 +27,7 @@ const projects = (props) => {
                 <Fade spy={props.content.language}><div className="grid-div text-justyfy" dangerouslySetInnerHTML={{
                     __html: project.description
                 }} /></Fade>
-                <img className="grid-div" src={source = source.imgSource} alt={source.id} />
+                <img className="grid-div hide-on-mobile" src={source = source.imgSource} alt={source.id} />
             </div>
         )
     }
@@ -36,7 +36,7 @@ const projects = (props) => {
         return (
             <div key={source.id}>
                 <Fade apear={true} delay={500}><div>
-                <Fade spy={props.content.language}> <h2>{project.date}</h2></Fade>
+                    <Fade spy={props.content.language}> <h2>{project.date}</h2></Fade>
                     {source.id % 2 === 0 ? projectLeftImage(source, project) : projectRighttImage(source, project)}
                 </div></Fade>
                 <Fade big left apear={true}> <hr /> </Fade>
