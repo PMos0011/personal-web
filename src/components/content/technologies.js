@@ -25,7 +25,7 @@ const technologies = (props) => {
                         Java<br />
                         Spring Boot<br />
                         JUnit<br />
-                        MySQL<br />
+                        SQL<br />
                     </h3></Fade>
                 </div>
                 </Fade>
@@ -41,9 +41,9 @@ const technologies = (props) => {
                 </Fade>
                 <Fade bottom big appear={true}><div className="grid-div text-align-left">
                     <Fade right duration={400} delay={1000}> <h3>
-                        React<br />
                         JavaScript<br />
-                        JSX<br />
+                        React<br />
+                        Redux<br />
                         CSS<br />
                     </h3>
                     </Fade>
