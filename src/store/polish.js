@@ -14,10 +14,8 @@ export default {
             description: "<h3>System komunikacji biura rachunkowego z klientami (Java, Spring Boot, SQL, React)</h3>"
                 + "<h3>System importuje dane z bazy danych popularnej aplikacji do prowadzenia biura rachunkowego,"
                 + " a następnie udostępnia je klientom biura.</h3>"
-                + "<h3>Repozytoria GitHub:</h3>"
-                + "<a href=https://github.com/PMos0011/mbender.pl.administartionapp target=_blank rel=noopener noreferrer>Aplikacja serwera</a><br/>"
-                + "<a href=https://github.com/PMos0011/ComarchPugin target=_blank rel=noopener noreferrer>Klient biura rachunkowego</a><br/>"
-                + "<a href=https://github.com/PMos0011/panel-adm.m-bender target=_blank rel=noopener noreferrer>Klient web</a><br/>"
+                + "<a href=https://panel.ishift.pl target=_blank rel=noopener noreferrer>Live Demo</a><br/>"
+
         },
         {
             date: "luty 2020",

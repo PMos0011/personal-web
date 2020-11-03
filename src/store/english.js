@@ -15,10 +15,7 @@ export default {
             description: "<h3>Accounting office communication system with clients (Java, Spring Boot, SQL, React)</h3>"
                 + "<h3>The system imports data from the database of a popular application for running an accounting office"
                 + " and then makes it available to the office's clients.</h3>"
-                + "<h3>GitHub repositories:</h3>"
-                + "<a href=https://github.com/PMos0011/mbender.pl.administartionapp target=_blank rel=noopener noreferrer>Server application</a><br/>"
-                + "<a href=https://github.com/PMos0011/ComarchPugin target=_blank rel=noopener noreferrer>Accounting office client</a><br/>"
-                + "<a href=https://github.com/PMos0011/panel-adm.m-bender target=_blank rel=noopener noreferrer>Web client</a><br/>"
+                + "<a href=https://panel.ishift.pl target=_blank rel=noopener noreferrer>Live Demo</a><br/>"
         },
         {
             date: "Ferbruary 2020",
