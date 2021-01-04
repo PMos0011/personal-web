@@ -11,9 +11,16 @@ export default {
     projectsDesc: [
         {
             date: "obecnie",
+            description: "<h3>Moduł OCR przetwarzania danych z faktur (Java, Tesseract, OpenCV, React)</h3>"
+                + "<h3>Moduł systemu wspomagania biur księgowych służący do konwersji danych z obrazu do pliku xml.</h3>"
+
+        },
+        {
+            date: "obecnie",
             description: "<h3>System komunikacji biura rachunkowego z klientami (Java, Spring Boot, SQL, React)</h3>"
                 + "<h3>System importuje dane z bazy danych popularnej aplikacji do prowadzenia biura rachunkowego,"
-                + " a następnie udostępnia je klientom biura.</h3>"
+                + " a następnie udostępnia je klientom biura."
+                + " System posiada moduł wystawiania faktur.</h3>"
                 + "<a href=https://panel.ishift.pl target=_blank rel=noopener noreferrer>Live Demo</a><br/>"
 
         },

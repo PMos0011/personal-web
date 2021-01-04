@@ -1,3 +1,4 @@
+import invoice from "../../images/inv.png";
 import comarch from '../../images/comarch.PNG';
 import tbsBot from '../../images/tbsBot.PNG';
 import interTaxi from '../../images/interTaxi.PNG';
@@ -8,26 +9,30 @@ import sysInfo from '../../images/jaskier.png';
 export default [
     {
         id: 0,
-        imgSource: comarch
+        imgSource: invoice
     },
     {
         id: 1,
-        imgSource: tbsBot
+        imgSource: comarch
     },
     {
         id: 2,
-        imgSource: interTaxi
+        imgSource: tbsBot
     },
     {
         id: 3,
-        imgSource: mBender
+        imgSource: interTaxi
     },
     {
         id: 4,
-        imgSource: android
+        imgSource: mBender
     },
     {
         id: 5,
+        imgSource: android
+    },
+    {
+        id: 6,
         imgSource: sysInfo
     }
 ]

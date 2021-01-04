@@ -12,9 +12,16 @@ export default {
     projectsDesc: [
         {
             date: "currently",
+            description: "<h3>OCR module for processing invoice data (Java, Tesseract, OpenCV, React)</h3>"
+                + "<h3>A module of the accounting office support system for converting data from an image to xml file.</h3>"
+
+        },
+        {
+            date: "currently",
             description: "<h3>Accounting office communication system with clients (Java, Spring Boot, SQL, React)</h3>"
                 + "<h3>The system imports data from the database of a popular application for running an accounting office"
-                + " and then makes it available to the office's clients.</h3>"
+                + " and then makes it available to the office's clients."
+                + " System has a module for invoicing.</h3>"
                 + "<a href=https://panel.ishift.pl target=_blank rel=noopener noreferrer>Live Demo</a><br/>"
         },
         {
