@@ -1,7 +1,7 @@
 export default {
     sayHello: "Hey there!",
     iAm: "I am Paweł Moskwa",
-    _1Para: "I'm a junior full-stack developer. I associate my professional future with the Java language and the React library.",
+    _1Para: "I'm a junior SW developer. I associate my professional future with the Java language and the React library.",
     _2Para: "I graduated from the University of Zielona Góra - Automation and Robotics."
         + " Professionally I've been associated with the military sector,"
         + " but programming and information technology have always been my passion."

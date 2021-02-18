@@ -1,7 +1,7 @@
 export default {
     sayHello: "Cześć!",
     iAm: "Nazywam się Paweł Moskwa",
-    _1Para: "Jestem początkującym full-stack developerem. Swoją przyszłość zawodową wiążę z językiem Java oraz biblioteką React.",
+    _1Para: "Jestem początkującym SW developerem. Swoją przyszłość zawodową wiążę z językiem Java oraz biblioteką React.",
     _2Para: "Ukończyłem studia na Uniwersytecie Zielonogórskim na kierunku automatyka i robotyka. Zawodowo związany byłem z sektorem wojskowym,"
         + " jednak programowanie i technologie informatyczne zawsze były moją pasją."
         + " W wolnym czasie majsterkowałem przy mikrokontrolerach i tworzyłem proste aplikacje w językach C++ czy C#."
